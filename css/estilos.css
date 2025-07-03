@@ -1,0 +1,229 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe4e4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+    color: #000000;
+    font-size: 17px;
+    cursor: url("/media/logoPequeñoFEV22.png"),auto;
+}
+
+main {
+    width: 75%;
+    margin: 0 auto;
+}
+
+nav a {
+    padding: 0.5em;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+nav {
+    margin-top: 5px;
+    text-align: center;
+    background-color: rgb(255, 0, 43);
+    color: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#cabecera {
+    margin-top: 0;
+    padding-top: 12px;
+    position: fixed;
+    z-index: 100;
+    background-color: #ffe4e4;
+    width: 100%;
+}
+
+#que-es {
+    font-style: italic;
+    color: #ffe4e4;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+header {
+    display: inline-flex;
+}
+
+header a {
+    margin: 1.2rem;
+
+}
+
+header nav {
+    display: inline-flex;
+    margin: 1rem;
+}
+header nav ul{
+    list-style: none;
+}
+
+.cabeza {
+    margin: 210px 0 0 4em;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: rgb(255, 0, 43);
+    font-weight: bolder;
+    margin-top: 210px;
+}
+
+h2 {
+    color: rgb(255, 0, 43);
+    margin-bottom: 40px;
+}
+
+p {
+    margin: 25px;
+    text-align: justify;
+}
+
+footer div {
+    display: inline-flex;
+}
+
+footer {
+    background-color: rgb(255, 0, 43);
+    width: 100%;
+    margin-top: 40px;
+    height: 70px;
+    position: static;
+    padding: 2rem;
+}
+footer div, address{
+    margin-left: 4em;
+}
+.destacado {
+    background-color: #ff5f5f;
+    line-height: 1.5;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 10px;
+    border-left: 22px solid rgb(255, 0, 43);
+    margin-bottom: 45px;
+}
+
+.contenedor {
+    width: 85%;
+    margin: 0 auto;
+    background-color: white;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(255, 0, 43);
+    margin-bottom: 45px;
+    line-height: 1.3;
+    text-align: justify;
+}
+
+.contenedor strong {
+    color: rgb(255, 0, 43);
+}
+
+#landing {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 60px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 0, 43);
+    border-radius: 50px;
+    border-style: none;
+    border: rgb(255, 0, 43) 4px solid;
+}
+
+main ul {
+    list-style-type: none;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 21px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+}
+
+main li {
+    margin-left: 20px;
+    padding-left: 20px;
+    margin: 5px;
+    background-color: #ff5f5f;
+    border: white solid 4px;
+    width: 600px;
+    height: 2.5em;
+    line-height: 2.5em;
+    border-radius: 8px;
+}
+
+#logo {
+    text-align: center;
+}
+
+#dialog1 {
+    background-color: #ffeaea;
+    font-size: 21px;
+    color: rgb(255, 0, 43);
+    font-weight: solid;
+    width: 700px;
+}
+
+#boton1 {
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 60px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 0, 43);
+    border-radius: 50px;
+    border-style: none;
+    border: rgb(255, 0, 43) 4px solid;
+}
+
+#dialog1 button {
+    background-color: rgb(255, 255, 255);
+    width: 85px;
+    height: 45px;
+    font-size: 15px;
+    color: rgb(255, 0, 43);
+    border-radius: 50%;
+    padding: 10px;
+    border-style: none;
+    border: rgb(255, 0, 43) 2px solid;
+}
+
+nav a {
+    display: inline-block;
+    transition: transform 0.1s ease;
+    
+}
+nav a:hover {
+    transform: scale(1.15);
+}
+
+#boton1:hover {
+    font-size: 21px;
+    text-decoration: underline;
+}
+
+#dialog1 button:hover {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+li:hover {
+    background-color: #a295a3;
+}
