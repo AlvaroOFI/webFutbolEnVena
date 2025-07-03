@@ -1,0 +1,1 @@
+Es un sitio web que brinda información y opinión sobre el mundo del fútbol de manera clara, imparcial y veraz 
